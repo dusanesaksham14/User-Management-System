@@ -4,7 +4,7 @@ const morgan = require('morgan');
 const bodyparser = require("body-parser");
 const path = require('path');
 
-const connectDB = require('./server/database/connection');
+const connectDB = require('./server/databases/connection');
 
 const app = express();
 
